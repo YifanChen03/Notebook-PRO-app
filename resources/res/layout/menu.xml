@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/functionsbox" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12sp" android:textColor="#000000" android:id="@+id/clipboardtxt" android:padding="8dp" android:layout_width="0dp" android:layout_height="0dp" android:text="TextView"/>
+        <ImageView android:id="@+id/settings" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_settings_black" android:scaleType="fitCenter"/>
+        <ImageView android:id="@+id/add" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_add_box_black" android:scaleType="fitCenter"/>
+        <ImageView android:id="@+id/clear" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_report_problem_black" android:scaleType="fitCenter"/>
+        <ImageView android:id="@+id/scrolldown" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_keyboard_backspace_black" android:scaleType="fitCenter" android:rotation="270"/>
+        <ImageView android:id="@+id/scrollup" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_keyboard_backspace_black" android:scaleType="fitCenter" android:rotation="90"/>
+        <ImageView android:id="@+id/copy" android:paddingLeft="3dp" android:layout_width="38dp" android:layout_height="38dp" android:src="@drawable/ic_content_copy_black" android:scaleType="fitCenter"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/allnotes_window" android:background="#ffffff" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ListView android:id="@+id/all_notes" android:background="@android:color/transparent" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:dividerHeight="2dp" android:choiceMode="none" android:layout_weight="1"/>
+    </LinearLayout>
+    <ScrollView android:id="@+id/note_window" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear20" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear23" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="right" android:id="@+id/delete" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_delete_black" android:scaleType="fitCenter"/>
+                <ImageView android:id="@+id/stt" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_keyboard_voice_black" android:scaleType="fitCenter"/>
+                <ImageView android:id="@+id/paste" android:paddingLeft="4dp" android:layout_width="35dp" android:layout_height="35dp" android:src="@drawable/paste" android:scaleType="fitCenter"/>
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@+id/linear25" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/edit" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_edit_black" android:scaleType="fitCenter"/>
+                    <ImageView android:id="@+id/save" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_sd_card_black" android:scaleType="fitCenter" android:scaleX="0.95" android:scaleY="0.95"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear21" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:textSize="25sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#607d8b" android:gravity="center_horizontal" android:id="@+id/title" android:background="@android:color/transparent" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Title"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear27" android:background="#40c4ff" android:padding="8dp" android:layout_width="match_parent" android:layout_height="2dp"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear24" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14sp" android:textColor="#000000" android:gravity="center_horizontal" android:id="@+id/datetimeshow" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="date and time"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear26" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear22" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:textSize="18sp" android:textColor="#000000" android:textColorHint="#607d8b" android:id="@+id/note_message" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Note" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/fab_linear" android:layout_width="650dp" android:layout_height="80dp" android:rotation="270">
+        <ImageView android:id="@+id/fab" android:layout_width="65dp" android:layout_height="65dp" android:src="@drawable/ic_add_circle_black" android:scaleType="fitCenter" android:translationX="10dp" android:rotation="90"/>
+        <ImageView android:id="@+id/share" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/ic_share_black" android:scaleType="fitCenter" android:translationX="10dp" android:rotation="90"/>
+        <ImageView android:id="@+id/locked" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/ic_lock_open_black" android:scaleType="fitCenter" android:translationX="10dp" android:rotation="90"/>
+        <ImageView android:id="@+id/go_up" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/ic_keyboard_backspace_black" android:scaleType="fitCenter" android:translationX="10dp" android:translationY="20dp" android:rotation="180"/>
+        <ImageView android:id="@+id/go_down" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/ic_keyboard_backspace_black" android:scaleType="fitCenter" android:translationX="-35dp" android:translationY="-20dp"/>
+        <ImageView android:id="@+id/readout" android:layout_width="47dp" android:layout_height="47dp" android:src="@drawable/speak" android:scaleType="fitCenter" android:translationX="-35dp" android:rotation="90"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,114 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: res/layout/customnote.xml
+SHA1-Digest: Hff3+cAaE7k2SHLOs/K/EZf1KTc=
+
+Name: res/drawable-xhdpi-v4/ic_lock_open_black.png
+SHA1-Digest: UPy/hXfBEEoaGfnwfGsH2i4OgiQ=
+
+Name: res/drawable-xhdpi-v4/ic_add_circle_black.png
+SHA1-Digest: AXelsr8axjLUr5/Pi0DHYH9RrvY=
+
+Name: res/layout/menu.xml
+SHA1-Digest: GSrLg8Ldlct8ZHu6auPB8IwydhE=
+
+Name: res/layout/change.xml
+SHA1-Digest: YJMcgRVr7OH+E8bmiDl1FDz5TV4=
+
+Name: res/drawable-xhdpi-v4/ic_search_black.png
+SHA1-Digest: Sova07ptgd8Ys+/WYj6uHyhvmog=
+
+Name: res/layout/main.xml
+SHA1-Digest: p1ryO8abzExJvu0ycE4Lq925Td4=
+
+Name: res/drawable-xhdpi-v4/app_icon.png
+SHA1-Digest: P3KwcFBfivjepxT+mmB3xEuF/QE=
+
+Name: res/layout/theme.xml
+SHA1-Digest: Cvpdt+aXC5/dsoS5KFlFHskHe/o=
+
+Name: res/drawable-xhdpi-v4/ic_check_white.png
+SHA1-Digest: vRhZ3geU+8lpkzNXUbragmrH7jI=
+
+Name: res/drawable-xhdpi-v4/ic_description_black.png
+SHA1-Digest: 7W60B5qjmd6BgKLO+v8QXx27noU=
+
+Name: res/layout/custom_notification.xml
+SHA1-Digest: ZLYPy0xYY+ehggvSzoiF3MZnTeg=
+
+Name: res/drawable-xhdpi-v4/paste.png
+SHA1-Digest: jDZ+eL59MW3m4WCkSDTIUl5Bkc0=
+
+Name: res/drawable-xhdpi-v4/default_image.png
+SHA1-Digest: BWRAoPVos58zRwxvNCq1nyPEM9U=
+
+Name: resources.arsc
+SHA1-Digest: nJsTy3zoVteGSX9MFrYPZS63GoU=
+
+Name: res/drawable-xhdpi-v4/ic_check_circle_white.png
+SHA1-Digest: w1cDvahPu08qmcLwvaNnKyAcuQ0=
+
+Name: res/drawable-xhdpi-v4/ic_settings_black.png
+SHA1-Digest: Fj6KDf5TGMfe1PbdKCBO5bVKPS4=
+
+Name: res/layout/settings.xml
+SHA1-Digest: 4guGZwP+SZoqcpj1qdnVclKeCas=
+
+Name: classes.dex
+SHA1-Digest: kbxugmhya6Je1y/Gjf9Qp6t0aPk=
+
+Name: res/drawable-xhdpi-v4/ic_keyboard_voice_black.png
+SHA1-Digest: ZhZbFLKvrvogVf+c0uvCvqGRQvQ=
+
+Name: res/drawable-xhdpi-v4/ic_delete_white.png
+SHA1-Digest: 4wBdRpC9nUN3IlaGk1U3n63UbG4=
+
+Name: res/drawable-xhdpi-v4/ic_edit_black.png
+SHA1-Digest: knSy0nEQ+h8tzNXwtY1zwlS06LQ=
+
+Name: res/drawable-xhdpi-v4/ic_content_copy_black.png
+SHA1-Digest: 2RtL9ilo6zguucrEtr7S88u8Vx0=
+
+Name: res/drawable-xhdpi-v4/ic_sd_card_black.png
+SHA1-Digest: +JJvG9kej7fBQzBKQXECYRliGWs=
+
+Name: res/drawable-xhdpi-v4/ic_delete_black.png
+SHA1-Digest: VUYjNaq08vG9ne519pzbcgKgCNA=
+
+Name: res/drawable-xhdpi-v4/ic_add_box_black.png
+SHA1-Digest: sYCC6geamT8NXwHBU/ksfesp9Z0=
+
+Name: res/drawable-xhdpi-v4/speak.png
+SHA1-Digest: IJb8BFbwml6z/L+PY56qja8Vrr8=
+
+Name: res/drawable-xhdpi-v4/ic_share_black.png
+SHA1-Digest: jebLeW1g9ko3SC6MGAbWagM/JEc=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: j7ZHSvTnBIEbyq3sywlRfBX+FJ0=
+
+Name: res/drawable-xhdpi-v4/ic_check_black.png
+SHA1-Digest: 07Jo/9iXRZZ0zcrxmmXSmw19o7U=
+
+Name: AndroidManifest.xml
+SHA1-Digest: XGQvxwN6jBCdh+pC07HD7uQ+3kc=
+
+Name: res/layout/codeslist.xml
+SHA1-Digest: 6qMVwb+Rn3/P28yXljVAIW1I8BU=
+
+Name: res/drawable-xhdpi-v4/ic_keyboard_backspace_black.png
+SHA1-Digest: 1mVm5cvJnC4ybbD1nPAIjlPkPO4=
+
+Name: res/drawable-xhdpi-v4/ic_report_problem_black.png
+SHA1-Digest: +zGzcQfYaLvwGG5JezVYPyIqmHw=
+
+Name: res/drawable-xhdpi-v4/ic_arrow_forward_black.png
+SHA1-Digest: MG8hbV9rTgT3RQkJLW2ZEJCFlYM=
+
+Name: res/drawable-xhdpi-v4/ic_lock_outline_black.png
+SHA1-Digest: M5o2FY+ZKiK8Eo5WFWvhcLRciRw=
+
+Name: res/drawable-xhdpi-v4/ic_close_black.png
+SHA1-Digest: j0STX6FBNytN4JoHbTjmYGcpupc=
+

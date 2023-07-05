@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/vscroll1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear2" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear3" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#000000" android:gravity="center_horizontal" android:id="@+id/textview1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Create a personal theme or use the examples!"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear4" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <SeekBar android:id="@+id/seekbar_red" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="255"/>
+            </LinearLayout>
+            <TextView android:textSize="16sp" android:textColor="#000000" android:id="@+id/red_value" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear5" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <SeekBar android:id="@+id/seekbar_green" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="255"/>
+            </LinearLayout>
+            <TextView android:textSize="16sp" android:textColor="#000000" android:id="@+id/green_value" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear6" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <SeekBar android:id="@+id/seekbar_blue" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="255"/>
+            </LinearLayout>
+            <TextView android:textSize="16sp" android:textColor="#000000" android:id="@+id/blue_value" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear7" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20sp" android:textColor="#000000" android:id="@+id/hash" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="#"/>
+                <EditText android:textSize="20sp" android:textColor="#000000" android:textColorHint="#9e9e9e" android:gravity="left" android:id="@+id/hexvalue" android:background="@android:color/transparent" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="926239" android:hint="Hexadecimal value"/>
+            </LinearLayout>
+            <Button android:textSize="18sp" android:textColor="#000000" android:id="@+id/setdefault" android:background="#ffffff" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Back to default"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

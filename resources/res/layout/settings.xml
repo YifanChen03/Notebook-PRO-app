@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/vscroll1" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="On/Off"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear4" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Switch android:textSize="20sp" android:textColor="#000000" android:id="@+id/notification_switch" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Notifications"/>
+                <Switch android:textSize="20sp" android:textColor="#000000" android:id="@+id/cancelable" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancelable"/>
+            </LinearLayout>
+            <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview3" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Font"/>
+            <Spinner android:id="@+id/font_spinner" android:background="#ffffff" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:spinnerMode="dropdown"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/tfs" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Size of note title: 18"/>
+            <SeekBar android:id="@+id/titlefontsize" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="35" android:progress="18"/>
+            <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/nfs" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Size of note: 18"/>
+            <SeekBar android:id="@+id/notefontsize" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="30" android:progress="18"/>
+            <Button android:textSize="18sp" android:textColor="#000000" android:id="@+id/default_size" android:background="#ffffff" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Back to default"/>
+            <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Other"/>
+            <Button android:textSize="18sp" android:textColor="#000000" android:id="@+id/change_code" android:background="#ffffff" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Change Codes"/>
+            <Button android:textSize="18sp" android:textColor="#000000" android:id="@+id/theme" android:background="#ffffff" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Theme color"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

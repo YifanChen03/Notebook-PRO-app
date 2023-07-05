@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear1" android:background="#6d4c41" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageview1" android:focusable="false" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/icon" android:scaleType="fitCenter"/>
+        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center_vertical" android:id="@+id/textview1" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="65dp" android:text="Notebook PRO "/>
+    </LinearLayout>
+</LinearLayout>
